@@ -1,0 +1,132 @@
+@media screen and (max-width: 575.98px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+  header {
+    padding: 30px 0;
+  }
+  .navbar {
+    margin-bottom: 5px;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+  }
+  .nav-items {
+    flex-direction: rows;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .features-content {
+    padding: 25px 15px;
+  }
+
+  .gallery-items {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 10px;
+  }
+
+  .features-gallery {
+    grid-column: 1/-1;
+  }
+
+  .features-text {
+    text-align: center;
+    grid-column: 1/-1;
+  }
+
+  .features-2-info {
+    grid-column: 1/-1;
+    order: 1;
+  }
+
+  .features-2-content {
+    column-gap: 0px;
+    align-content: center;
+    place-items: center;
+  }
+
+  .features-2-fig {
+    grid-column: 1/-1;
+    order: 0;
+  }
+
+  .exp-btn-wrap {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .exp-btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+    padding: 10px 20px;
+  }
+  .exp-btn > p {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .features-2-intro {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .features-2-intro h2 {
+    margin-bottom: 10px;
+  }
+  .features-2-items {
+    text-align: center;
+  }
+
+  .facts {
+    padding: 30px 0;
+  }
+
+  .facts-info,
+  .sponsor-info {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .facts-info h2,
+  .sponsor-info h4 {
+    margin-bottom: 15px;
+  }
+  .counts {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 15px;
+  }
+
+  .sponsor {
+    padding: 30px 0;
+  }
+
+  .sponsor-items {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 2fr;
+    grid-gap: 10px;
+  }
+  .blog-content {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  footer {
+    margin-bottom: 10px;
+  }
+  .footer-content {
+    padding: 15px 0;
+  }
+}
