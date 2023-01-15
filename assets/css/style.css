@@ -230,7 +230,7 @@ header {
 /*section-facts-start */
 
 .facts {
-  padding: 130px 0;
+  padding: 130px 0 0;
 }
 
 .facts-info {
@@ -374,7 +374,7 @@ header {
 
 /* footer-style-start */
 footer {
-  margin-bottom: 30px;
+  padding: 100px 0;
 }
 .footer-content {
   display: flex;
@@ -387,5 +387,6 @@ footer {
   color: #424242;
   padding: 40px 0;
   border-radius: 8px;
+  text-align: center;
 }
 /* footer-style-end */

@@ -41,7 +41,6 @@
 
   .features-2-info {
     grid-column: 1/-1;
-    order: 1;
   }
 
   .features-2-content {
@@ -52,7 +51,6 @@
 
   .features-2-fig {
     grid-column: 1/-1;
-    order: 0;
   }
 
   .exp-btn-wrap {
@@ -87,7 +85,7 @@
   }
 
   .facts {
-    padding: 30px 0;
+    padding: 30px 0 0;
   }
 
   .facts-info,
@@ -124,7 +122,7 @@
   }
 
   footer {
-    margin-bottom: 10px;
+    padding: 30px 0;
   }
   .footer-content {
     padding: 15px 0;
